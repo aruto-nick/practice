@@ -13,7 +13,7 @@ test
 
 2026-01-28
 
-今日の学習-①GitHub　Desktop ダウンロード
+今日の学習-①GitHub　Desktop 導入・アカウント連携
 
 分からなかったこと-　ダウンロード手順　※英語読めない
 
@@ -21,7 +21,9 @@ test
 
 2026-01-29 
 
-今日の学習-
+今日の学習-　practice リポジトリを GitHub Desktop で管理できる状態にする
+
+⑴practiceリポジトリをclone　⑵VS CODEで編集可能
 
 分からなかったこと-
 
