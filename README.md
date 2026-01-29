@@ -29,5 +29,17 @@ test
 
 明日の学習予定-
 
-## 今日のひとこと
-GitHub Desktopでclone→編集→管理できるようになった！
+## 今日1月29日(木)時点できること
+GitHub Desktop をインストール・起動
+
+GitHubにログイン
+
+リポジトリをClone
+
+VS Codeで編集
+
+Commit
+
+Fetch → Push
+
+WebのGitHubで反映確認
