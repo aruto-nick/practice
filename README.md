@@ -25,9 +25,9 @@ test
 
 ⑴practiceリポジトリをclone　⑵VS CODEで編集可能
 
-分からなかったこと-
+分からなかったこと-単語の意味 Fetch,Commit,push
 
-明日の学習予定-
+明日の学習予定-「VS Code」、「GitHub　Desktop」を用いて勉強記録
 
 ## 今日1月29日(木)時点できること
 GitHub Desktop をインストール・起動
@@ -43,3 +43,11 @@ Commit
 Fetch → Push
 
 WebのGitHubで反映確認
+
+2026-01-30
+
+今日の学習-勉強記録継続　by　「VS Code」「GitHub　Desktop」
+
+分からなかったこと-
+
+明日の学習予定-
