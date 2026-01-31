@@ -48,6 +48,8 @@ WebのGitHubで反映確認
 
 今日の学習-勉強記録継続　by　「VS Code」「GitHub　Desktop」
 
-分からなかったこと-
+README（文章）&HTML（コード）をCommit・Push
 
-明日の学習予定-
+2026-01-31
+
+今日の学習-
