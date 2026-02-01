@@ -65,3 +65,14 @@ README（文章）&HTML（コード）をCommit・Push
 「Initial commit」ー最初のコミット。変更履歴の起点。
 
 「Push origin」ーローカルリポジトリ上の変更（コミット）をリモートリポジトリ上に反映させること
+
+## 2026-02-01
+
+今日の学習
+
+・GitHub Pagesで全世界に公開
+
+・css変数（:root）
+
+・：hover、transitionプロパティ
+
