@@ -76,3 +76,10 @@ README（文章）&HTML（コード）をCommit・Push
 
 ・：hover、transitionプロパティ
 
+## 2026-02-01
+
+今日の学習
+
+・復習：：hover、transitionプロパティ　by「プロフボタン追加」
+
+・JavaScript→クリック後文字が変わる
