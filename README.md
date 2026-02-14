@@ -179,3 +179,33 @@ by（衆院演説、読書、就活、将棋、日記、ニュース、GT操作�
 ・! を使った条件反転に触れた
 
 ・達成時に一度だけ実行するフラグ制御を実装
+
+## 2026-02-13
+
+今日の学習
+
+・命名分離
+
+-　resetBtn.addEventListener("click",()=>
+    【処理】　});
+    ↓
+    resetBtn.addEventListener("click", handleResetClick);
+
+    ※関数handleResetClickにて【処理】を設定済み
+
+・localStorageでクリック回数を保存
+
+-ページ更新（リロード）しても回数保持。リセット時に消える。
+
+【用語解説】
+localStorage = 保存できる場所
+
+set = 書く  
+get = 読む  
+remove = 消す
+
+## 2026-02-14
+
+今日の学習
+
+※忙しいため、GitHub起動と学習ログ更新のみ実施
