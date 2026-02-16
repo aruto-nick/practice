@@ -230,3 +230,25 @@ loadStorage.getItem(STORAGE_KEY);
 
 const STORAGE_KEY = "clickCount";
 目的：定数STORAGE_KEYを設定することで文字列clickCountの名称変更が楽
+
+## 2026-02-16
+
+今日の学習【関数名を処理内容が伝わる形へ改善】
+
+・「保存処理分離」
+-保存処理をsaveCount関数にまとめる（分離する）。→コードを見やすくする
+
+・【確認】関数名から役割を確認
+-handleCountclick「カウントをクリック時の処理」
+-isAchieved「達成していますか？」
+
+・「増加処理分離」
+-値の変更をする関数作成　for 将来の修正箇所を減らす
+-incrementCount関数
+
+・「変更入口統一」
+-count変更後の処理をまとめ
+-onCountChanged関数
+
+・「reset分離」
+-resetCount関数ーcount = 0 ;
