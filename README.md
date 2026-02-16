@@ -209,3 +209,24 @@ remove = 消す
 今日の学習
 
 ※忙しいため、GitHub起動と学習ログ更新のみ実施
+
+## 2026-02-15
+
+今日の学習
+
+・consoleに「保存回数」を表示
+
+・「保存回数」を画面に表示
+
+・アプリに「初期化処理」追加
+-init関数ー①
+
+【コード修正】　by　savedCountを定義するより上の行で実行したため
+
+【コード理解】
+loadStorage.getItem(STORAGE_KEY);
+「ブラウザ中のメモ帳　タイトルSTORAGE_KEY　から保存データをください」
+＝「clickCountという名前で保存されているデータをください」
+
+const STORAGE_KEY = "clickCount";
+目的：定数STORAGE_KEYを設定することで文字列clickCountの名称変更が楽
