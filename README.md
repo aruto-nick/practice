@@ -252,3 +252,19 @@ const STORAGE_KEY = "clickCount";
 
 ・「reset分離」
 -resetCount関数ーcount = 0 ;
+
+## 2026-02-17
+
+今日の学習
+
+・「状態判定分離」
+-getAppState関数に「状態を判断させる」
+-updateText関数「表示変更」と責任を分けることで
+将来の変更(文言変更・多言語対応など)が楽
+
+・「目標判定関数」
+-isGoalReached関数
+-count >= GOAL　と比べ　役割が一目で分かる
+
+・「中間目標定数化」
+-マジックナンバー（コードに記述された意図不明の数）を排除＆定数で管理
