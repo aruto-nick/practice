@@ -316,3 +316,32 @@ setTimeout(処理,時間)
 -マイクロタスク：優先度高いタスク。タスクより先に実行。
 処理を全部実行してからタスクに進むため、状態の安定化がやりやすい。
 -async/await：※マイクロタスクPrpmiseを書きやすくしたもの。
+
+## 2026-02-22
+
+今日の学習
+
+・Promise(マイクロタスク)の組込み
+
+【復習・確認】
+・localStorage.setItem(STORAGE_KEY, String(count));
+-「ブラウザのメモ帳に『STORAGE_KEY』という名前で『String(count)』を保存
+
+・JSの値の種類
+-number型ー(例)5「数値」
+-string型ー(例）"5"「文字」
+-boolean型（ブーリアン型）ー(例）true
+-null型ー(例）null
+-undefined型ー(例）undefined
+
+・「＝＝」と「＝＝＝」の違い
+＝＝　　　値が同じならOK
+＝＝＝　　値と型が同じならOK
+
+・「truthy / falsy」 と 「!!」
+-JSでは全ての値はtrue/falseに変換できる(＝Boolean変換)
+-「！」はtrue/falseを反転
+-「！！」Valueを強制的にtrue/falseに変換
+(例)!!o　→　false　,　!!"hello" 　→　true
+-truthy「trueになる値」、falsy「falseになる値」
+
