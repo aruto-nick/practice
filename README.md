@@ -345,3 +345,25 @@ setTimeout(処理,時間)
 (例)!!o　→　false　,　!!"hello" 　→　true
 -truthy「trueになる値」、falsy「falseになる値」
 
+## 2026-02-23
+
+今日の学習
+
+・クリックカウンターの進化「型に強いコード化」
+
+【基礎知識】
+-NaN＝Not　a Number「数では無いnumber型」
+⭐️例題：Number.isNaN("abc")　　→　　false
+"abc"は文字列なので「数では無いがstring型」のため
+❌"abc"は「数ではない」のでtrueは誤り
+
+-「Number.isNan(pursed)」
+→「値：pursedはNaNですか？」
+
+-「isNan(pursed)」
+→「pursedは数値変換したらNaNですか？」
+
+-Object.is(値１,値２)
+→「値１と値２は本当に同じ値ですか？」※NaN同士は同じ値とみなす
+
+-infinity「無限大（number型）」
