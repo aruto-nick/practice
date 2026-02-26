@@ -377,3 +377,10 @@ setTimeout(処理,時間)
 -ボタンスタイル統一、hover演出の最適化、アクセシビリティ配慮（:focus-visible、　prefers-reduced-motion）、レイアウト調整
 
 ・面接質問対策「:focus-visible、　prefers-reduced-motion」説明
+
+## 2026-02-25
+
+今日の学習
+
+※時間なしのためGitHub更新のみ
+
