@@ -349,8 +349,6 @@ setTimeout(処理,時間)
 
 今日の学習
 
-・クリックカウンターの進化「型に強いコード化」
-
 【基礎知識】
 -NaN＝Not　a Number「数では無いnumber型」
 ⭐️例題：Number.isNaN("abc")　　→　　false
@@ -367,3 +365,15 @@ setTimeout(処理,時間)
 →「値１と値２は本当に同じ値ですか？」※NaN同士は同じ値とみなす
 
 -infinity「無限大（number型）」
+
+## 2026-02-24
+
+今日の学習
+
+・クリックカウンター仕上げ
+-README
+
+・UI整形
+-ボタンスタイル統一、hover演出の最適化、アクセシビリティ配慮（:focus-visible、　prefers-reduced-motion）、レイアウト調整
+
+・面接質問対策「:focus-visible、　prefers-reduced-motion」説明
