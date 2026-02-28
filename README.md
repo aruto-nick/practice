@@ -412,3 +412,20 @@ setTimeout(処理,時間)
 ③工夫点「状態判定を関数に分けた」
 ④苦労点「条件分岐と状態管理」
 ⑤学び「修正しやすいコード設計」
+
+## 2026-02-28
+
+今日の学習
+
+・クリックカウンター説明対策
+
+【復習】
+・localStorage
+①.setItem　   「データを保存」
+②.getItem　   「保存データを取得」
+③.removeItem　「データの更新」
+
+・NaN対策「数値でなければ０にする」
+-if(Number.isNaN(value)){count = 0;}
+
+・ポートフォリオ２作目「Simple　ToDo　Manager」　設計開始
