@@ -429,3 +429,15 @@ setTimeout(処理,時間)
 -if(Number.isNaN(value)){count = 0;}
 
 ・ポートフォリオ２作目「Simple　ToDo　Manager」　設計開始
+
+## 2026-03-01
+
+今日の学習
+
+・開発方針確認「Version方式」
+V1：完成（実装予定：タスク追加・削除・完了チェック・localStorage保存・残タスク表示）
+V2:余裕有（締切機能）　　V3:発展（締切日ごとにUI変更）
+
+・フィールド設定
+-id:タスク番号,title:タスク名,completed:完了チェック,createdAt:作成日,dueAt:締切
+
