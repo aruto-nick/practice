@@ -457,3 +457,16 @@ V2:余裕有（締切機能）　　V3:発展（締切日ごとにUI変更）
 ・「Simple ToDo Manager」をGitHub Pagesで公開
 
 ・削除機能の記述
+
+## 2026-03-04
+
+今日の学習
+
+・render関数の理解
+-各処理説明をコードに記述
+
+【JS知識】
+-innerHTML　「HTML要素の取得・変更」
+-createElement　「HTML要素の生成」
+-addEventListener("click",関数)　「クリックされたら’関数’を実行」
+-appendChild　「子要素の追加」
