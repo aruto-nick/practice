@@ -470,3 +470,25 @@ V2:余裕有（締切機能）　　V3:発展（締切日ごとにUI変更）
 -createElement　「HTML要素の生成」
 -addEventListener("click",関数)　「クリックされたら’関数’を実行」
 -appendChild　「子要素の追加」
+
+## 2026-03-05
+
+今日の学習
+
+・配列の基本操作
+-配列の設定
+const todos = [{id:1,title:"勉強"},{id:2,title:"筋トレ"}]
+-push:配列に追加
+todos.push = {id:Date.now(),title:input.value}
+-配列を１つずつ取り出し
+for (const todo of todos)
+-配列の絞り込み
+todos.filter (todo => todo.id !== id)
+
+
+【JS知識】
+JSON .stringly　「JSオブジェ　→　JSON文字列」
+JSON .parse　　　「JSオブジェ　←　JSON文字列」
+
+deleteTodo(3)       <すぐ実行>
+()=> deleteTodo (3) <後で実行>
