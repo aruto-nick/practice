@@ -492,3 +492,10 @@ JSON .parse　　　「JSオブジェ　←　JSON文字列」
 
 deleteTodo(3)       <すぐ実行>
 ()=> deleteTodo (3) <後で実行>
+
+## 2026-03-06
+
+今日の学習
+
+・deleteTodo関数の理解
+-配列todos＆その一要素todo
