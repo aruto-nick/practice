@@ -499,3 +499,19 @@ deleteTodo(3)       <すぐ実行>
 
 ・deleteTodo関数の理解
 -配列todos＆その一要素todo
+
+## 2026-03-07
+
+今日の学習
+
+・render()の役割
+-todos(データ)→HTML(画面)に変換
+※データ変更の際（追加・削除・完了）に画面を書き直す必要があるため
+
+【知識】
+-配列.length　「配列の要素数」
+
+【疑問】
+①const todo = {}における{}内の構造？
+②配列todos =loadTodos();　の構造？
+③関数deleteTOdo　の構造？
