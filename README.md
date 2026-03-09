@@ -515,3 +515,11 @@ deleteTodo(3)       <すぐ実行>
 ①const todo = {}における{}内の構造？
 ②配列todos =loadTodos();　の構造？
 ③関数deleteTOdo　の構造？
+
+## 2026-03-08
+
+今日の学習
+
+・「completed切り替え」の実装
+-inputタグ　「入力欄の追加」
+-checkbox作成
