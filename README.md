@@ -520,6 +520,20 @@ deleteTodo(3)       <すぐ実行>
 
 今日の学習
 
-・「completed切り替え」の実装
+・「completed切り替え」の実装　※途中まで
 -inputタグ　「入力欄の追加」
 -checkbox作成
+
+## 2026-03-09
+
+今日の学習
+
+・「completed切り替え」の実装
+-checkbox作成
+-changeイベント
+-取り消し線
+
+・「タイトル」表示コード
+-titleSpan　「タイトル部分のみ操作（斜線を引く）するため」
+-textContent　「spanに文字を入れるため」
+-appendChild　「親子関係(親li-子span)作成のため」
