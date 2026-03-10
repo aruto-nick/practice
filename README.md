@@ -537,3 +537,16 @@ deleteTodo(3)       <すぐ実行>
 -titleSpan　「タイトル部分のみ操作（斜線を引く）するため」
 -textContent　「spanに文字を入れるため」
 -appendChild　「親子関係(親li-子span)作成のため」
+
+## 2026-03-10
+
+今日の学習
+
+・「completed切り替え」の完成
+※親liー子checkboxの親子関係を作る
+
+・css見た目の改善
+-flex:1;=  アイテムを伸ばす　※下記３つの融合
+「flex-grow: 1;」=空きスペース分伸ばす、
+「flex-shrink: 1;」＝はみ出した分縮める、
+「flex-basis: 0;」＝基準サイズを指定
