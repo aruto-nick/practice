@@ -577,3 +577,12 @@ deleteTodo(3)       <すぐ実行>
 【知識】
 配列.forEach ( () => {処理});
 「配列内の要素を1個ずつ処理」
+
+## 2026-03-14
+
+今日の学習
+
+【復習】
+-querySelectorAll 「セレクタ要素の取得」
+-NodeList　「配列のような集合　※querySelectorAllによる取得可」
+-配列.forEach　「配列内の一要素を一つずつ取得」
