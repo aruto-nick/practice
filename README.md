@@ -586,3 +586,23 @@ deleteTodo(3)       <すぐ実行>
 -querySelectorAll 「セレクタ要素の取得」
 -NodeList　「配列のような集合　※querySelectorAllによる取得可」
 -配列.forEach　「配列内の一要素を一つずつ取得」
+
+## 2026-03-15
+
+今日の学習
+
+【学習】
+
+-<html>data-⚪︎⚪︎　「属性。自由に情報保存できる」
+(例)<button data-filter="all">All</button>
+-<js>dataset.⚪︎⚪︎　「上記情報の取得できる」
+(例)btn.dataset.filter
+
+forEach
+-配列.forEach( (要素) => {処理})
+-要素は空欄でもOK
+-ただし、要素を使う処理の場合は要記述
+例：
+document.querySelectorAll("#filters button).forEach((btn)=>){
+    btn.addEventListener("click,　※以下略)
+}
