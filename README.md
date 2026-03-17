@@ -606,3 +606,17 @@ forEach
 document.querySelectorAll("#filters button).forEach((btn)=>){
     btn.addEventListener("click,　※以下略)
 }
+
+## 2026-03-16
+
+今日の学習
+
+【復習】
+-.forEach
+-dataset.⚪︎⚪︎
+-.filter
+-let　「変数定義　※再代入可能」
+-classList.remove("値")　「値の排除」
+
+・「フィルタボタンの選択状態表示機能」※実装のみ・未理解
+-classList
