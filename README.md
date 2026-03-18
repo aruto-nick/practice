@@ -619,4 +619,20 @@ document.querySelectorAll("#filters button).forEach((btn)=>){
 -classList.remove("値")　「値の排除」
 
 ・「フィルタボタンの選択状態表示機能」※実装のみ・未理解
--classList
+-①classList
+
+## 2026-03-17
+
+今日の学習
+
+・「フィルタボタンの選択状態表示機能」
+-② 状態(currentFilter)変更　→　（状態を元に）UIの変更 
+-③ renderは一覧表示だけでなくUI全体を更新
+
+【ポイント】
+-render　「(状態を元に)UI全体を更新する」
+-currentFilter「表示モードを表す状態」
+-Q.ボタンクリック時に直接UIを変更しない理由？
+A.状態を変えてrenderによって一元管理するため
+
+⚪︎状態変更　→　UI（画面）変更
