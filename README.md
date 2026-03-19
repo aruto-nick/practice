@@ -636,3 +636,23 @@ document.querySelectorAll("#filters button).forEach((btn)=>){
 A.状態を変えてrenderによって一元管理するため
 
 ⚪︎状態変更　→　UI（画面）変更
+
+## 2026-03-18
+
+今日の学習
+
+・コード写経
+
+document.querySelectorAll("[data-filter]").forEach(button => {
+    button.addEventListener("click", ()=> {
+        currentFilter = button.dataset.filter;
+        render();
+    });
+});
+
+⚪︎状態に従ってUIは更新される
+
+・render関数の役割分け for 修正が楽、バグを見つけやすい、短い文章
+-renderList(); 「一覧機能」
+-renderCount(); 「件数機能」
+-renderFilter(); 「フィルタ機能」
