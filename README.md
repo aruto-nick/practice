@@ -656,3 +656,14 @@ document.querySelectorAll("[data-filter]").forEach(button => {
 -renderList(); 「一覧機能」
 -renderCount(); 「件数機能」
 -renderFilter(); 「フィルタ機能」
+
+## 2026-03-19
+
+今日の学習
+
+・バグ修正
+-forEachにてtodo設定した場合、todoの使用はforEach内で行うこと
+-変数deleteButton、関数deleteTodo　の書き間違い
+- ] の書き漏れ
+
+・作成：チェックボックス、タイトル、削除ボタン
