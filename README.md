@@ -667,3 +667,14 @@ document.querySelectorAll("[data-filter]").forEach(button => {
 - ] の書き漏れ
 
 ・作成：チェックボックス、タイトル、削除ボタン
+
+## 2026-03-20
+
+今日の学習
+
+・動作確認
+-タスク追加、チェック線、削除機能、フィルタ機能、更新時データ保持
+
+・UI改善
+-opacity 「透明化」→完了タスク判別のため
+-if (filterTodos.length === 0) 「フィルタ０時の表示」
