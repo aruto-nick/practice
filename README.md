@@ -677,4 +677,45 @@ document.querySelectorAll("[data-filter]").forEach(button => {
 
 ・UI改善
 -opacity 「透明化」→完了タスク判別のため
--if (filterTodos.length === 0) 「フィルタ０時の表示」
+-if (filterTodos.length === 0) 「タスク０時の表示」
+
+-return; 「（処理の終了）」
+
+・リファクタリング：renderList関数 ※現状維持
+
+## 2026-03-20
+
+今日の学習
+
+・renderListの自力再現
+
+function renderList (){
+    let filteredTodos =todos;
+
+    //フィルタ
+    if (fiteredTodos = "active"){
+        todos = todos.fiter(todo => ! todo.completed)
+    }elseif (fiteredTodos ="completed"){
+        todos = todos.fiter(todo =>  todo.completed)
+    }
+
+    listEl.innerHTML = "";
+
+    //空チェック
+    if (fiteredTodos.length === 0){
+        const li = document.creatElement("li");
+        li.textcontent = "タスクはありません";
+        return;
+    }
+
+    //forEach
+    fiteredTodos.forEach((todo) => {
+        
+    })
+}
+
+・renderList「今の状態に合うToDo一覧を作り、画面に表示する関数」
+-①表示するToDoを決める
+-②一覧表示エリアを空にする
+-③タスクが０件の場合、「タスクがありません」と表示
+-④タスクが０件でない場合、１件ずつToDoのUIを作り表示する
