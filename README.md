@@ -778,3 +778,65 @@ throw new Error("エラー内容");
 
 異常な状態を明確にし、処理を止めるために使います。
 正常系と異常系を分けることで、バグを防ぎやすくする目的があります。」
+
+## 2026-03-26
+
+今日の学習
+
+・renderList自力再現　→　写経
+
+function renderList () {
+    ①todosをfilterする
+    let filteredTodos = todos;
+
+    if(currentFilter === "active"){
+        filteredTodos = todos.filter(todo => !todo.completed);
+    }else if (currentFilter === "completed"){
+        filteredTodos = todos.filter(todo => todo.completed);
+    }
+
+    ②listを空にする
+    listEL.innerHTML = "";
+
+    ③０件なら
+    if(filteredTodos.length === 0){
+        const li = document.createElement("li");
+        li.textcontent ="タスクがありません";
+        listEl.appendChild(li);
+        return;
+    }
+
+    ④forEach
+    filteredTodos.forEach(todo => {
+        const li = document.createElement("li");
+
+        ⑤checkbox,span,deleteButton
+
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.checked = todo.completed;
+        checkbox.addEventListener("change", () => {
+            todo.completed = checkbox.checked;
+            saveTodos(todos)
+            render();
+        });  
+    });
+
+    const span = document.createElement("span");
+    span.textContent = todo.title;  
+
+    const deleteButton = document.createElement("button");
+    deleteButton.textContent = "削除";
+    deleteButton.addEventListener("click", => {
+        deleteTodo(todo.id);
+    })
+    
+
+    ⑥liに追加
+    li.appendChild(checkbox);
+    li.appendChild(span);
+    li.appendChild(deleteButton);
+
+    ⑦listに追加
+    listEl.appendChild(li);
+}
