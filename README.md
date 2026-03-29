@@ -887,3 +887,104 @@ function renderList(){
 
 }
 
+## 2026-03-29
+
+今日の学習
+
+・renderList自力再現トレーニング③
+
+function renderList() {
+  let filteredTodos = todos;
+
+  if (currentFilter === "active") {filteredTodos = todos.filter(todo => !todo.completed);
+  } else if (currentFilter === "completed") {filteredTodos = todos.filter(todo => todo.completed);
+  }
+
+  listEl.innerHTML = "";
+
+  if (filteredTodos.length === 0) {
+    const li = document.createElement("li);
+    li.textContent = "タスクがありません";
+    listEl.appendChild(li);
+    return;
+  }
+
+  filteredTodos.forEach(todo => {
+
+
+      const checkbox = document.createElement("checkbox");
+      checkbox.type = "checkbox";
+      checkbox.checked = todo.completed;
+
+      const span = document.createElement("span");
+
+  });
+}
+
+・renderList自力再現トレーニング④
+
+function renderList() {
+  let filteredTodos = todos;
+
+  if (currentFilter === "active") {
+    filteredTodos = todos.filter(todo => !todo.completed);
+  } else if (currentFilter === "completed") {
+    filteredTodos = todos.filter(todo => todo.completed);
+  }
+
+  listEl.innerHTML = "";
+
+  if (filteredTodos.length === 0) {
+    const li = document.createElement("li");
+    li.textContent = "タスクがありません";
+    listEl.appendChild(li);
+    return;
+  }
+
+  filteredTodos.forEach(todo => {
+    const li = document.createElement("li");
+
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.checked = todo.completed;
+
+    const span = document.createElement("span");
+    span.textContent = todo.title;
+
+    // ここに changeイベント
+    checkbox.addEventListener("change", =>{
+        todo.completed = checkbox.checked;
+        savedTodos(todo);
+        render();
+    });
+
+    // ここに deleteButton
+    const deleteButton = document.createElement("button");
+    deleteButton.textContent = "削除";
+    deleteButton.addEventListener("click", => {
+        deleteTodos();
+        savedTodos();
+        render();
+    });
+
+    // append
+    listEl.appendChild(li);
+    li.appendChild(checkbox);
+    li.appendChild(span);
+    li.appendChild(deleteButton);
+  });
+}
+
+・renderList自力再現トレーニング⑤
+
+checkbox.addEventListener("change", () => {
+  todo.completed = checkbox.checked;
+  saveTodos(todos);
+  render();
+});
+
+const deleteButton = document.createElement("button");
+deleteButton.textContent = "削除";
+deleteButton.addEventListener("click", () => {
+  deleteTodo(todo.id);
+});
