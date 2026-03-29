@@ -841,7 +841,49 @@ function renderList () {
     listEl.appendChild(li);
 }
 
-## 2026-03-26
+## 2026-03-27
 
 今日の学習
 ※時間ないのでGitHub起動＆学習ログ更新のみ
+
+## 2026-03-28
+
+今日の学習
+
+・renderList自力再現トレーニング②
+
+function renderList(){
+    //1. filteredTodos作る
+        let filteredTodos = todos;
+
+    //2. active / completed 分岐
+        if (currentFilter === active){
+            filteredTodos = todos.filter ( todo => !todos.completed);
+        }else if (currentFilter === completed){
+            filteredTodos = todos.filter(todo => todo.completed);
+        }
+
+    //3. listを空にする
+        li.textContent = "";
+
+    //4. 0件なら表示
+        if (filteredTodos.length === 0){
+            filteredTodos.textContent = "タスクがありません";;
+        }
+
+    //5. forEach
+        
+    //6. checkbox
+        const checkbox = document.createElement("input");
+        type =checkbox;
+        checkbox checked = todos.completed
+
+    //7. span
+        const span = document.createElement(span);
+
+    //8. deleteButton
+
+    //9. append
+
+}
+
