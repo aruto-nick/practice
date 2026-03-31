@@ -988,3 +988,74 @@ deleteButton.textContent = "削除";
 deleteButton.addEventListener("click", () => {
   deleteTodo(todo.id);
 });
+
+## 2026-03-30
+
+今日の学習
+
+・renderList自力再現トレーニング⑥
+
+function renderList (){
+    //filteredTodos設定
+    let filteredTodos = todos;
+
+    //active,completedを分ける
+    if (currentTodos === "active"){
+        filteredTodos = todos.filter(todo => !todo.completed)
+    }else if (currentTodos === "completed"){
+        filteredTodos = todos.filter(todo => todo.completed)
+    }
+
+    //ulを空にする
+    listEl.innerHTML = "";
+
+    //タスク数が０の表示
+    if (filteredTodos.length === 0){
+        const li = document.createElement("li");
+        li.textContent = "タスクがありません";
+        listEl.appendChild(li);
+        return();
+    }
+
+    //forEach
+    filteredTodos.forEach( (todo) => {
+        const li = document.createElement("li");
+
+        //チェックボックス作成
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.checked = todo.completed;
+
+        checkbox.addEventListener("change", () => {
+            todo.completed = checkbox.checked;
+            saveTodos(todos);
+            render();
+        });
+
+        //span作成
+        const span = document.createElement("span");
+        span.textContent = todo.title;
+
+
+        //削除ボタン
+        const deleteButton = document.createElement("button");
+        deleteButton.textContent = "削除";
+        deleteButton.addEventListenet("click", () => {
+            deleteTodo(todo.id)
+        });
+
+
+        //親子関係
+        li.appendChild(checkbox);
+        li.appendChild(span);
+        li.appendChild(deleteButton);
+
+        listEl.appendChild(li);
+
+    });
+}
+
+renderList関数の説明
+-render:状態（todos）を元に画面を再描画する関数
+-filter:配列の中から条件に合う要素だけを取り出す処理
+-localStorage:ブラウザにデータを保存し、ページ更新後も状態を保持できる仕組み
