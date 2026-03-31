@@ -1059,3 +1059,17 @@ renderList関数の説明
 -render:状態（todos）を元に画面を再描画する関数
 -filter:配列の中から条件に合う要素だけを取り出す処理
 -localStorage:ブラウザにデータを保存し、ページ更新後も状態を保持できる仕組み
+
+## 2026-03-31
+
+今日の学習
+
+理解
+-e.preventDefault();
+「ページリロードを防ぐ　for　JavaScriptで処理を続けるため」
+
+-e.preventDefault();なし
+リロード（ページを最初から読み直す）によって、画面が一瞬初期状態に戻りタスクが消えたように見える
+
+-e.preventDefault();あり
+リロードなし。JavaScriptのみで機能。その場で画面更新
