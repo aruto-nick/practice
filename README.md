@@ -1073,3 +1073,8 @@ renderList関数の説明
 
 -e.preventDefault();あり
 リロードなし。JavaScriptのみで機能。その場で画面更新
+
+## 2026-04-01
+
+今日の学習
+※時間ないのでGitHub起動＆学習ログ更新のみ
