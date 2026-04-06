@@ -1096,3 +1096,10 @@ renderList関数の説明
 
 -udemy「JavaScriptをとことんやってみよう」③〜⑥
 -Excel:基本操作調べ・環境構築
+
+## 2026-04-5
+
+今日の学習
+
+-udemy「JavaScriptをとことんやってみよう」⑦〜⑧
+-Excel:代用キングソフト「スプレッドシート」
