@@ -1089,3 +1089,10 @@ renderList関数の説明
 今日の学習
 
 -udemy「JavaScriptをとことんやってみよう」①〜②
+
+## 2026-04-4
+
+今日の学習
+
+-udemy「JavaScriptをとことんやってみよう」③〜⑥
+-Excel:基本操作調べ・環境構築
