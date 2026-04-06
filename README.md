@@ -1083,3 +1083,9 @@ renderList関数の説明
 
 今日の学習
 ※時間ないのでcss一単語調べのみ「font-size-adjust:小文字サイズ;」
+
+## 2026-04-3
+
+今日の学習
+
+-udemy「JavaScriptをとことんやってみよう」①〜②
